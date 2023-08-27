@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4CXL26C9BC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4CXL26C9BC");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      MediaCraft Pro - Get stunning photo collages from our limited collection
+    </title>
+    <meta
+      name="description"
+      content="Unleash your creativity with our photo collage creator. Choose from a variety of grid templates, upload your photos, and create personalized collages in minutes."
+    />
+    <meta
+      name="keywords"
+      content="photo grids, custom collage, personalized collage, custom photo templates, webp, png, svg, heic, webp, avif, photo editor, photo collage creator, free online tool, online collage"
+    />
+    <meta name=" author" content="MediaCraft Pro" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no,  user-scalable=yes"
+      id="viewport"
+    />
+    <meta
+      property="og:title"
+      content="MediaCraft PRO - Convert images and videos, create gifs, edit images, get custom photo collages and more"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mediacraftpro.netlify.app/" />
+    <meta property="og:site_name" content="MediaCraft PRO" />
+    <meta
+      property="og:description"
+      content="Easily convert images and
+    videos, craft dynamic GIFs, enhance visuals, and get custom photo
+    collages using MediaCraft PRO – your free, fast, and versatile online media
+    manipulation tool."
+    />
+    <meta
+      property="og:image"
+      content="https://mediacraftpro.netlify.app/Images/hero_bg.png"
+    />
+
+    <link rel="manifest" href="../../manifest.json" />
+    <link rel="canonical" href="https://mediacraftpro.netlify.app/" />
+    <link rel="shortcut icon" sizes="16x16" href="../../Images/convert16.png" />
+    <link rel="shortcut icon" sizes="24x24" href="../../Images/convert24.png" />
+    <link rel="shortcut icon" sizes="32x32" href="../../Images/convert32.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="48x48"
+      href="../../Images/convert64.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../collage.css" />
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"
+      integrity="sha512-XMVd28F1oH/O71fzwBnV7HucLxVwtxf26XV8P4wPk26EDxuGZ91N8bsOttmnomcCD3CS5ZMRL50H0GgOHvegtg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <p>Loading...</p>
+    </div>
+    <!-- End of Loader -->
+
+    <header class="d-flex justify-content-between align-items-center px-2 py-4">
+      <div class="logo_container">
+        <a href="../../index.html">
+          <img
+            src="../../Images/convert.png"
+            alt="MediaCraft Pro Logo"
+            width="32px"
+            height="32px"
+          />
+          <strong>MediaCraft Pro</strong>
+        </a>
+      </div>
+
+      <nav class="nav medium_text">
+        <ul class="primary_ul">
+          <li><a href="../../features.html">Features</a></li>
+          <li>
+            <a href="#" class="useless_link">Image Converter</a>
+            <ul>
+              <li>
+                <a href="imageConverter.html">Convert Your Images</a>
+              </li>
+              <li>
+                <a href="convertToJPG.html">Convert to JPG</a>
+              </li>
+              <li>
+                <a href="convertToPNG.html">Convert to PNG</a>
+              </li>
+              <li>
+                <a href="convertToWEBP.html">Convert to WebP</a>
+              </li>
+              <li>
+                <a href="convertToAVIF.html">Convert to AVIF</a>
+              </li>
+            </ul>
+            <i class="fa fa-plus expand_icon" aria-hidden="true"></i>
+          </li>
+          <li>
+            <a href="#" class="useless_link">Video Converter</a>
+            <ul>
+              <li>
+                <a href="../For Videos/videoConverter.html"
+                  >Convert Your Videos</a
+                >
+              </li>
+              <li>
+                <a href="../For Videos/convertToAVI.html">Convert to AVI</a>
+              </li>
+              <li>
+                <a href="../For Videos/convertToMKV.html">Convert to MKV</a>
+              </li>
+              <li>
+                <a href="../For Videos/convertToMOV.html">Convert to MOV</a>
+              </li>
+              <li>
+                <a href="../For Videos/convertToMP4.html">Convert to MP4</a>
+              </li>
+              <li>
+                <a href="../For Videos/convertToWEBM.html">Convert to WEBM</a>
+              </li>
+            </ul>
+            <i class="fa fa-plus expand_icon" aria-hidden="true"></i>
+          </li>
+          <li>
+            <a href="#" class="useless_link">Image Editor</a>
+            <ul>
+              <li>
+                <a href="imageEditor.html">Edit Your Images</a>
+              </li>
+              <li>
+                <a href="#" class="useless_link">Get Your Collage</a>
+              </li>
+              <li>
+                <a href="gifCreator.html">Create Your GIF</a>
+              </li>
+              <li>
+                <a href="removeBackground.html">Remove Background</a>
+              </li>
+            </ul>
+            <i class="fa fa-plus expand_icon" aria-hidden="true"></i>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="menu small_text mb-0 p-1">MENU</p>
+    </header>
+
+    <main class="mt-5">
+      <h1 class="text-center p-2">
+        <strong>Create your custimized photo collages</strong>
+      </h1>
+      <p class="medium_text text-center px-2 py-0">
+        Unleash your creativity with our photo collage creator. Choose from a
+        variety of grid templates, upload your photos, and create personalized
+        collages in minutes.
+        <span class="gradient_text"
+          >&#x2713; Best For Small Media Files. Start transforming today!
+        </span>
+      </p>
+
+      <h2 class="mt-4 p-2 text-center">
+        <strong>Select your collage</strong>
+      </h2>
+      <section class="collage_section small_text">
+        <div
+          class="user_instruction_div d-flex justify-content-start align-items-start flex-column p-2"
+        >
+          <h3 class="p-2"><strong>How to use it?</strong></h3>
+
+          <ul>
+            <li class="m-1">Choose your collage.</li>
+            <li class="m-1">
+              Upload or drag and drop the necessary number of images
+              corresponding to the selected template.
+            </li>
+            <li class="m-1">Supported Formats: JPG/JPEG, PNG, WEBP, AVIF.</li>
+            <li class="m-1">Max File Size: 10MB per file.</li>
+            <li class="m-1">Download.</li>
+          </ul>
+
+          <p class="mb-0 m-1 text-center text-danger">
+            <b
+              >Please note that a file may not preview due to an unsupported
+              format.</b
+            >
+          </p>
+        </div>
+        <div class="image_grid_section">
+          <div class="image_grid_container">
+            <div class="image_grid_1 image_grid">
+              <img
+                src="../../Images/img1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img3.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img4.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+            </div>
+
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_2 image_grid" id="image_grid_2">
+              <img
+                src="../../Images/img1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img4.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img3.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+            </div>
+
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_3 image_grid">
+              <img
+                src="../../Images/img1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img3.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img4.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+            </div>
+
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_4 image_grid">
+              <img
+                src="../../Images/img1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img3.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/img4.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_5 image_grid five_image_grids">
+              <img
+                src="../../Images/dog2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog7.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog5.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog6.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_6 image_grid six_image_grids">
+              <img
+                src="../../Images/dog8.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog7.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog5.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog6.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+              <img
+                src="../../Images/dog1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="20%"
+                height="auto"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="mb-0 p-2 images_count"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+
+          <div class="image_grid_container">
+            <div class="image_grid_7 image_grid eight_image_grids">
+              <img
+                src="../../Images/dog1.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog2.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog3.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog4.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog5.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog6.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog7.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+              <img
+                src="../../Images/dog8.jpg"
+                alt="MediaCraft Placeholder Image"
+                width="100%"
+                height="100%"
+                loading="lazy"
+              />
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center w-100"
+            >
+              <p class="images_count mb-0 p-2"></p>
+              <button class="select_collage_btn p-2">I want this</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../js/main.js"></script>
+    <script type="module" src="../../js/reusable.js"></script>
+    <script type="module" src="../../js/collageCreator.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
