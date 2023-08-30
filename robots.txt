@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mediacraftpro.netlify.app/sitemap.xml

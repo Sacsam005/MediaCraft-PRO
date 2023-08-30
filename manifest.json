@@ -1,0 +1,44 @@
+{
+  "short_name": "MediaCraft Pro",
+  "name": "MediaCraft Pro - Free Image & Video Converter, Editor, GIF Maker & More",
+  "description": "Effortlessly convert and edit your media files, create GIFs, and get custom photo collages. Transform your media files to next level. Your all-in-one media editing tool.",
+  "icons": [
+    {
+      "src": "../Images/convert16.png",
+      "type": "image/png",
+      "sizes": "16x16",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../Images/convert24.png",
+      "type": "image/png",
+      "sizes": "24x24",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../Images/convert32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../Images/convert64.png",
+      "type": "image/png",
+      "sizes": "64x64",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../Images/convert.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#efefef",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "en"
+}
